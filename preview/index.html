@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Advanced Building Plastics | Website MVP Preview</title>
+  <meta name="description" content="Unlisted website MVP preview for Advanced Building Plastics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="preview-bar">MVP PREVIEW · Products, prices and availability are illustrative</div>
+  <div class="service-strip">Free local delivery <span>•</span> Trade accounts welcome <span>•</span> Call 01773 857717</div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Advanced Building Plastics home"><img src="assets/abp-logo.png" alt="Advanced Building Plastics"></a>
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" placeholder="Search fascia, soffit, guttering…" aria-label="Search products"></label>
+    <div class="header-actions"><a class="delivery-button" href="tel:01773857717">Free local delivery</a><button class="quote-button">Quote list <b id="quote-count">0</b></button></div>
+  </header>
+
+  <nav class="category-nav" aria-label="Product categories">
+    <button data-category="Fascia">Fascia</button><button data-category="Soffit">Soffit</button><button data-category="Guttering">Guttering</button><button data-category="Cladding">Cladding</button><button data-category="Roofing">Roofing</button><button>Offers</button><button>Trade services</button><button>Help &amp; advice</button>
+  </nav>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">ROOFLINE EXPERTS. TRADE-READY STOCK.</p>
+        <h1>Finish it right.<br><em>First time.</em></h1>
+        <p class="hero-text">Fascia, soffit, guttering, cladding and roofing essentials—with knowledgeable local service and free local delivery.</p>
+        <div class="hero-actions"><a href="#catalogue">Shop roofline</a><a class="secondary" href="tel:01773857717">Call for a quote</a></div>
+        <div class="trust-row"><span>✓ Free local delivery</span><span>✓ Ex &amp; inc VAT pricing</span><span>✓ One local team</span></div>
+      </div>
+      <div class="hero-image"><img src="assets/abp-warehouse-hero.png" alt="Roofline products stocked beside a local delivery van in a specialist warehouse"><div><strong>Stocked locally.</strong><span>Delivered locally.</span></div></div>
+    </section>
+
+    <section class="quick-services">
+      <article><span>01</span><div><strong>Free local delivery</strong><p>Tell us where the job is and we’ll confirm your slot.</p></div><b>→</b></article>
+      <article><span>02</span><div><strong>Collect from our counter</strong><p>Order ahead. We’ll have it ready.</p></div><b>→</b></article>
+      <article><span>03</span><div><strong>Project pricing</strong><p>Send your list for a tailored quote.</p></div><b>→</b></article>
+    </section>
+
+    <section class="image-grid" aria-label="Roofline services">
+      <article><img src="assets/roof-gutter.jpg" alt="Close-up of rainwater guttering on a house"><div><p class="eyebrow">ROOFLINE</p><h2>Everything for a clean finish.</h2><a href="#catalogue">Shop guttering and fascia →</a></div></article>
+      <article><img src="assets/roofing-work.jpg" alt="Roofing work in progress on a house"><div><p class="eyebrow">TRADE SUPPORT</p><h2>Products and advice for the job.</h2><a href="tel:01773857717">Talk to our team →</a></div></article>
+    </section>
+
+    <section class="catalogue" id="catalogue">
+      <div class="section-heading"><div><p class="eyebrow">POPULAR RIGHT NOW</p><h2>Get the job moving</h2></div><p>Prices shown both ways, so there are no surprises at checkout.</p></div>
+      <div class="filter-row" aria-label="Filter products"><button class="active" data-category="All products">All products</button><button data-category="Fascia">Fascia</button><button data-category="Soffit">Soffit</button><button data-category="Guttering">Guttering</button><button data-category="Cladding">Cladding</button><button data-category="Roofing">Roofing</button></div>
+      <div class="product-grid" id="product-grid"></div>
+      <p class="empty" id="empty" hidden>No matching products. Try a different search or category.</p>
+    </section>
+
+    <section class="trade-banner"><div><p class="eyebrow">WORK SMARTER WITH US</p><h2>Trade terms without the runaround.</h2><p>Straightforward account pricing, project quotes and one local team that gets to know your business.</p></div><a href="mailto:abp.ltd@outlook.com?subject=Trade%20account%20enquiry">Ask about a trade account →</a></section>
+  </main>
+
+  <footer><img src="assets/abp-logo.png" alt="Advanced Building Plastics"><p><a href="tel:01773857717">01773 857717</a><br><a href="mailto:abp.ltd@outlook.com">abp.ltd@outlook.com</a></p><p>MVP preview · No orders are processed</p></footer>
+</body>
+</html>
